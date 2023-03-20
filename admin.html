@@ -23,11 +23,11 @@
                 <form class="sign-in-form">
                     <div class="form-group">
                         <i class="fa-solid fa-envelope"></i>
-                        <input type="text" class="form-control" pattern= "[a-zA-z0-9._]+@[a-z0-9.]+.[a-z]{2,}$" placeholder="Email" required>
+                        <input type="email" class="form-control" pattern="[a-zA-z0-9._]+@[a-z0-9.]+.[a-z]{2,}$" placeholder="Email" required>
                     </div>
                     <div class="form-group">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="text" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$" placeholder="Password" required>
+                        <input type="password" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$" placeholder="Password" title="Password should contain 1 uppercase,1 lowercase,1 special character,1 number" required>
                     </div>
                     <button class="btnLogIn">Login</button>
                     <br>
